@@ -1,0 +1,13 @@
+pkg/
+Gemfile.lock
+vendor/
+spec/fixtures/
+.vagrant/
+.bundle/
+coverage/
+*.sw*
+<% if ! @configs['paths'].nil? -%>
+<% @configs['paths'].each do |path| -%>
+<%= path %>
+<% end -%>
+<% end -%>
