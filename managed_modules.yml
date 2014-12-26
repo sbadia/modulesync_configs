@@ -1,0 +1,7 @@
+---
+- puppet-dropbear
+- puppet-bird
+- puppet-metche
+- puppet-gitlab
+- puppet-allknowingdns
+- puppet-checkmk
