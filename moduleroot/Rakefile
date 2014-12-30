@@ -13,7 +13,7 @@ NAME = "<%= @configs['forgename'] %>-#{File.basename(TDIR).split('-')[1]}"
 
 exclude_path = ["spec/**/*","pkg/**/*","vendor/**/*"]
 
-PuppetLint.configuration.fail_on_warnings
+PuppetLint.configuration.fail_on_warnings = true
 <% checks = @configs['default_disabled_lint_checks'] + ( @configs['extra_disabled_lint_checks'] || [] ) -%>
 <% checks.each do |check| -%>
 PuppetLint.configuration.send('<%= check %>')
