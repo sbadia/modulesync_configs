@@ -13,7 +13,7 @@ Gemfile:
     ':development, :unit_tests':
       - gem: puppetlabs_spec_helper
       - gem: rspec-puppet
-        version: '2.0.0'
+        version: '2.0.1'
       - gem: puppet-blacksmith
       - gem: puppet-lint-param-docs
       - gem: puppet-lint-absolute_classname-check
