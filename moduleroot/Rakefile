@@ -27,7 +27,3 @@ namespace :module do
     exec "rsync -rv --exclude-from=#{TDIR}/.forgeignore . /tmp/#{NAME};cd /tmp/#{NAME};puppet module build"
   end
 end
-
-task :metadata do
-  sh "metadata-json-lint metadata.json"
-end
