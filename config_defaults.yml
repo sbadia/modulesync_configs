@@ -16,6 +16,7 @@ Gemfile:
       - gem: rspec-puppet
       - gem: puppet-syntax
       - gem: puppet-lint
+      - gem: puppet-blacksmith
       - gem: puppet-lint-param-docs
       - gem: metadata-json-lint
       - gem: puppet_facts
